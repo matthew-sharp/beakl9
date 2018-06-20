@@ -886,6 +886,11 @@ xkb_symbols "beakl9" {
    key <AB08> { [	l, L	] };
    key <AB09> { [	p, P	] };
    key <AB10> { [	v, V	] };
+
+   key <CAPS> { [ minus  , underscore ] };
+   key <AC11> { [ colon  , semicolon ] };
+
+   include "level3(ralt_switch)"
 };
 
 // Intel ClassmatePC Keyboard Layout
